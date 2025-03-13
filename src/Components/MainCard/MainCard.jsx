@@ -5,7 +5,7 @@ import { BtnLogo } from '../BtnLogo/BtnLogo';
 
 export const MainCard = ({ image, name, title, location, about }) => {
     return (
-      <div className="bg-gray-900 text-white p-6 rounded-xl shadow-md w-150 mx-auto h-500 mt-10 mb-20">
+      <div className="bg-gray-900 text-white p-6 rounded-xl shadow-md w-150 mx-auto h-110 mt-40 mb-20">
         {/* Encabezado */}
         <div className="flex items-center gap-10">
           <img

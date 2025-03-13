@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin, FaFacebookF, FaInstagram  } from "react-icons/fa"
 
 export const Footer = () => {
   return (
-          <footer className="bg-[#7F7F7F] text-white w-full p-4 flex items-center justify-between border-t border-gray-700 bottom-0">
+          <footer className="absolute bg-[#7F7F7F] text-white w-full p-4 flex items-center justify-between border-t border-gray-700 bottom-0">
             {/* Nombre */}
             <span className="text-sm font-semibold">© Santiago Bustos Diaz 2025 Armenia-Quindio Sena-Centro De Comercio Y Turismo</span>
       
