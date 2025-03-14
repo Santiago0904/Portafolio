@@ -11,13 +11,13 @@ const studies = [
 
 export const StudiesCard = () => {
   return (
-    <div className="bg-gray-900 text-white p-6 rounded-2xl shadow-lg w-96 mx-auto">
+    <div className="bg-gray-900 text-white p-4 sm:p-6 rounded-2xl shadow-lg max-w-sm sm:max-w-md mx-auto">
       <h2 className="text-xl font-bold mb-4 text-center">📚 Estudios</h2>
       <ul className="space-y-4">
         {studies.map((study, index) => (
-          <li key={index} className="flex items-center space-x-3">
+          <li key={index} className="flex flex-col sm:flex-row items-center sm:space-x-3 space-y-2 sm:space-y-0">
             <study.icon className="text-green-400 text-3xl" />
-            <div>
+            <div className="text-center sm:text-left">
               <p className="text-lg font-semibold">{study.title}</p>
               <p className="text-sm text-gray-400">{study.institution} - {study.years}</p>
             </div>
@@ -27,4 +27,3 @@ export const StudiesCard = () => {
     </div>
   );
 };
-
