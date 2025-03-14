@@ -1,10 +1,10 @@
 import React from "react";
 
 const projects = [
-  { name: "Traductor", img: "src/assets/img/traductor.png", link: "https://santiago0904.github.io/Dictionary/" },
-  { name: "Reproductor de Música", img: "src/assets/img/reproductor.jpg", link: "https://santiago0904.github.io/Audio-player/" },
-  { name: "Juego de Palabras", img: "src/assets/img/juego.png", link: "https://juegopalabras.github.io/JuegoPalabrasRandom/" },
-  { name: "Librería", img: "src/assets/img/libro.jpg", link: "https://github.com/Sena-Library/Sena-Library" },
+  { name: "Traductor", img: "/img/traductor.png", link: "https://santiago0904.github.io/Dictionary/" },
+  { name: "Reproductor de Música", img: "/img/reproductor.jpg", link: "https://santiago0904.github.io/Audio-player/" },
+  { name: "Juego de Palabras", img: "/img/juego.png", link: "https://juegopalabras.github.io/JuegoPalabrasRandom/" },
+  { name: "Librería", img: "/img/libro.jpg", link: "https://github.com/Sena-Library/Sena-Library" },
 ];
 
 export const ExperienceCard = () => {

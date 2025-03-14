@@ -4,7 +4,7 @@ import { MainCard } from '../../Components/MainCard/MainCard'
 export const Home = () => {
   return (
     <MainCard
-    image='src/assets/img/foto.webp'
+    image='/img/foto.webp'
     name='Santiago Bustos Diaz'
     title='Aprendíz de ADSO'
     location='Armenia-Quindio'
